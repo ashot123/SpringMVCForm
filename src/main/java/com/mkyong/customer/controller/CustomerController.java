@@ -88,13 +88,13 @@ public class CustomerController{
 		return webFrameworkList;
 	}
 	
-	/*@InitBinder
+	@InitBinder
 	public void initBinder(WebDataBinder binder) {
 		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 		
 		binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
 		
-	}*/
+	}
 	
 	@ModelAttribute("numberList")
 	public List<String> populateNumberList() {

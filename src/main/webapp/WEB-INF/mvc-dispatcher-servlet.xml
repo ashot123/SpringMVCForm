@@ -15,7 +15,7 @@
  	<!-- Register the Customer.properties -->
 	<bean id="messageSource"
 		class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="com/mkyong/customer/properties/Customer" />
+		<property name="basename" value="Customer" />
 	</bean>
  	
 	<bean id="viewResolver"
